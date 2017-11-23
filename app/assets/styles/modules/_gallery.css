@@ -1,0 +1,10 @@
+/* Gallery 
+ ================================================================ */
+
+.gallery {
+    &__lg--image {
+        background: url(../../assets/images/erik-lucatero-395688.jpg);
+    }
+    &__desc--lg {}
+    &__desc {}
+}

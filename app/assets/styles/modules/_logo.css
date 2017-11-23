@@ -1,0 +1,15 @@
+/* Logo 
+ ================================================================ */
+
+.logo {
+    &__h1 {
+        font-weight: 700;
+        font-size: 5em;
+        letter-spacing: -0.4rem;
+    }
+    &_span {
+        color: $mainBlue;
+        font-size: 0.75em;
+        font-weight: 400;
+    }
+}

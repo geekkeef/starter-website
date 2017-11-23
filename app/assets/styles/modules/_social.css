@@ -1,0 +1,14 @@
+/* Social 
+ ================================================================ */
+
+.social {
+    position: relative;
+    text-align: right;
+    &__a {
+        color: #333;
+        padding-left: 8px;
+    }
+    &__a:hover {
+        color: $mainLightBlue;
+    }
+}

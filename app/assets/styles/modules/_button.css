@@ -1,0 +1,30 @@
+/* Button 
+ ================================================================ */
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-size: 1rem;
+
+    &--orange {
+        background-color: $mainOrange;
+        color: #fff;
+    }
+    &--blue {
+        background-color: $mainBlue;
+        color: #fff;
+    }
+
+    &--lg {
+        font-size: 1.1rem;
+        padding: 8px 45px
+    }
+}

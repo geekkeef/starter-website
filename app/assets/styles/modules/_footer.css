@@ -1,0 +1,18 @@
+/* Footer 
+ ================================================================ */
+
+.footer {
+    &--top {
+        background-color: #1F2024;
+    }
+    &--bottom {
+        background-color: #16151a;
+    }
+    &__logo {
+        display: block;
+        margin: 80px auto 50px;
+    }
+    &--social {
+        color: #fff;
+    }
+}

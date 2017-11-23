@@ -1,0 +1,42 @@
+/* Follow 
+ ================================================================ */
+
+.follow {
+    &__a {}
+    &--panel {
+        width: 95%;
+        margin: 0 auto;
+        border: none;
+        height: 50px;
+    }
+    &--panel--facebook {
+        background-color: #3B5998;
+    }
+    &--panel--google {
+        background-color: #EA4235;
+    }
+    &--panel--twitter {
+        background-color: #1DA1F2;
+    }
+    &--panel--instagram {
+        background-color: #E3415C;
+    }
+    &--panel--reddit {
+        background-color: #FF4500;
+    }
+    &--panel--tumblr {
+        background-color: #01273A;
+    }
+    &--panel--snapchat {
+        background-color: #FFFC00;
+    }
+    &--panel--github {
+        background-color: #323131;
+    }
+    &--panel--steam {
+        background-color: #171A21;
+    }
+    &--panel--flickr {
+        background-color: #0063DB;
+    }
+}
