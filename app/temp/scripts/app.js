@@ -9946,6 +9946,7 @@ var MobileMenu = function () {
 
         this.menuIcon = (0, _jquery2.default)('.nav__menu-icon');
         this.menuContent = (0, _jquery2.default)('.nav__menu-content');
+        this.appWindow = (0, _jquery2.default)(window);
         this.events();
     }
 
@@ -9953,11 +9954,19 @@ var MobileMenu = function () {
         key: 'events',
         value: function events() {
             this.menuIcon.click(this.toggleTheMenu.bind(this)); // bind(this) ---> this.menuIcon
+            this.appWindow.resize(this.checkWindow.bind(this));
         }
     }, {
         key: 'toggleTheMenu',
         value: function toggleTheMenu() {
             this.menuContent.toggleClass('nav__menu-content--visible');
+        }
+    }, {
+        key: 'checkWindow',
+        value: function checkWindow() {
+            if (window.matchMedia('(min-width: 992px)').matches) {
+                this.menuContent.removeClass('nav__menu-content--visible');
+            }
         }
     }]);
 

@@ -1314,7 +1314,12 @@ li .nav--special {
 .btn--orange {
         background-color: #fcb000;
         color: #fff;
-        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        text-shadow: 1px 1px 2px rgba(0, 1px, 0, 0.5);
+    }
+
+.btn--orange:hover {
+        background-color: #e88902;
+        text-shadow: 1px 1px 2px rgba(0, 1px, 0, 0.8);
     }
 
 .btn--blue {
