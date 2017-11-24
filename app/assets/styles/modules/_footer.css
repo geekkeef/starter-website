@@ -7,8 +7,12 @@
         background-color: $bgColorDark;
         padding-top: 35px;
         padding-bottom: 25px;
+        @mixin mediaMediumMax {
+            padding-top: 0;
+            padding-bottom: 65px;
+        }
     }
-    &--top div.col-7 {
+    &--top div.col--7 {
         background-image: url(../../assets/images/jason-leung-370358.png);
     }
     &--bottom {
@@ -21,6 +25,14 @@
         color: $mainGrey;
         font-size: .7rem;
         line-height: 1.5rem;
+        @mixin mediaSmallMax {
+            font-size: .6rem;
+        }
+    }
+    &--bottom div.col--6--sm {
+        @mixin mediaSmallMax {
+            text-align: center;
+        }
     }
     &__logo {
         display: block;

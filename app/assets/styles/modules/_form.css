@@ -4,10 +4,13 @@
 .form {
     &--group {
         margin-bottom: 15px;
+        textarea {
+            overflow: hidden;
+        }
     }
-    &--contact{
+    &--contact {
         text-align: center;
-    } 
+    }
     &--control {
         width: 90%;
         padding: 6px 12px;

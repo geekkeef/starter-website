@@ -11,4 +11,8 @@
     &__a:hover {
         color: $mainLightBlue;
     }
+    @mixin mediaSmallMax {
+        padding-top: 5px;
+        text-align: center;
+    }
 }
