@@ -5,8 +5,10 @@
     &--group {
         margin-bottom: 15px;
     }
+    &--contact{
+        text-align: center;
+    } 
     &--control {
-        display: block;
         width: 90%;
         padding: 6px 12px;
         font-size: 14px;

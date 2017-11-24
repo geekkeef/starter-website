@@ -2,11 +2,25 @@
  ================================================================ */
 
 .footer {
+    margin-top: 75px;
     &--top {
-        background-color: #1F2024;
+        background-color: $bgColorDark;
+        padding-top: 35px;
+        padding-bottom: 25px;
+    }
+    &--top div.col-7 {
+        background-image: url(../../assets/images/jason-leung-370358.png);
     }
     &--bottom {
-        background-color: #16151a;
+        background-color: $bgColorDarker;
+    }
+    &--bottom .row {
+        padding: 10px 0;
+    }
+    &--bottom p {
+        color: $mainGrey;
+        font-size: .7rem;
+        line-height: 1.5rem;
     }
     &__logo {
         display: block;

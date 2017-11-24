@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="keywords" content="HTML, CSS, JavaScript, NodeJs, NPM, Gulp, Git, Express, MongoDB, Geek, Nerd">
 	<meta name="author" content="geekKeef, KJunior">
-	<title>home:{geekKeef}</title>
+	<title>home:{{geekKeef}}</title>
 	<link rel="stylesheet" type="text/css" href="temp/styles/styles.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -50,12 +50,12 @@
 
 				<div class="header">
 					<div class="row">
-						<div class="col-3">
+						<div class="col-4">
 							<div class="logo">
 								<h1 class="logo__h1"><span class="logo_span">geek</span>Keef</h1>
 							</div>
 						</div>
-						<div class="col-9">
+						<div class="col-8">
 							<div class="panel header--panel">
 								<div class="panel__body">
 									<h3>I'm a <span>geek</span> about mine...</h3>
@@ -73,7 +73,7 @@
 					<div class="row">
 						<div class="col-7">
 							<div class="thumbnail img--bg welcome__img welcome__img--controller">
-								<div class="welcome__desc">
+								<div class="welcome__desc welcome__desc--lg">
 									<h2>Games</h2>
 				        			<p>Up, Down, Left, Right, B, A, Start</p>
 								</div>
@@ -122,89 +122,91 @@
 
 				
 				<div class="row">
-					<div class="col-6">
+					<div class="col-8">
 						<div class="gallery">
 							<div class="panel">
 								<div class="row">
 									<div class="col-12">
-										Gallery
+										<h3 class="gallery__title"><i class="fa fa-picture-o" aria-hidden="true"></i> Gallery</h3>
+										<hr>
 									</div>
 								</div>
 								<div class="row">
 									<div class="col-6 img--bg gallery__lg--image">
 										<div class="welcome__desc gallery__desc--lg">
-											<h6>Date</h6>
-											<p>Description</p>
+											<h6><i class="fa fa-clock-o" aria-hidden="true"></i> Nov 20,2017</h6>
+											<p>Title</p>
 										</div>
 									</div>
 									<div class="col-6">
 										<div class="row">
-											<div class="col-5">
+											<div class="col-4">
 												<picture>
 													<source srcset="assets/images/jens-johnsson-205843.jpg" media="(max-width: 990px)">
 													<img class="gallery-image" srcset="assets/images/thumbs/jens-johnsson-205843_thumb.jpg">
 												</picture>
 											</div>
-											<div class="col-7">
+											<div class="col-8">
 												<div class="gallery__desc">
-													<h6>Date</h6>
-													<p>Description</p>
+													<h6>
+														<i class="fa fa-clock-o" aria-hidden="true"></i> Nov 07,2017</h6>
+													<p>Title</p>
 												</div>
 											</div>
 										</div>
 										<div class="row">
-											<div class="col-5">
+											<div class="col-4">
 												<picture>
 													<source srcset="assets/images/yulia-vambold-31160.jpg" media="(max-width: 990px)">
 													<img class="gallery-image" srcset="assets/images/thumbs/yulia-vambold-31160_thumb.jpg">
 												</picture>
 											</div>
-											<div class="col-7">
+											<div class="col-8">
 												<div class="gallery__desc">
-													<h6>Date</h6>
-													<p>Description</p>
+													<h6><i class="fa fa-clock-o" aria-hidden="true"></i> Nov 08,2017</h6>
+													<p>Title</p>
 												</div>
 											</div>
 										</div>
 										<div class="row">
-											<div class="col-5">
+											<div class="col-4">
 												<picture>
 													<source srcset="assets/images/paul-volkmer-451300.jpg" media="(max-width: 990px)">
 													<img class="gallery-image" srcset="assets/images/thumbs/paul-volkmer-451300_thumb.jpg">
 												</picture>
 											</div>
-											<div class="col-7">
+											<div class="col-8">
 												<div class="gallery__desc">
-													<h6>Date</h6>
-													<p>Description</p>
+													<h6><i class="fa fa-clock-o" aria-hidden="true"></i> Nov 12,2017</h6>
+													<p>Title</p>
 												</div>
 											</div>
 										</div>
 										<div class="row">
-											<div class="col-5">
+											<div class="col-4">
 												<picture>
 													<source srcset="assets/images/sai-kiran-anagani-61187.jpg" media="(max-width: 990px)">
 													<img class="gallery-image" srcset="assets/images/thumbs/sai-kiran-anagani-61187_thumb.jpg">
 												</picture>
 											</div>
-											<div class="col-7">
+											<div class="col-8">
 												<div class="gallery__desc">
-													<h6>Date</h6>
-													<p>Description</p>
+													<h6><i class="fa fa-clock-o" aria-hidden="true"></i> Nov 12,2017</h6>
+													<p>Title</p>
 												</div>
 											</div>
 										</div>
 										<div class="row">
-											<div class="col-5">
+											<div class="col-4">
 												<picture>
 													<source srcset="assets/images/alvaro-nino-67026.jpg" media="(max-width: 990px)">
 													<img class="gallery-image" srcset="assets/images/thumbs/alvaro-nino-67026_thumb.jpg">
 												</picture>
 											</div>
-											<div class="col-7">
+											<div class="col-8">
 												<div class="gallery__desc">
-													<h6>Date</h6>
-													<p>Description</p>
+													<h6><i class="fa fa-clock-o" aria-hidden="true"></i> Nov 17,2017</h6>
+													<p>Title</p>
 												</div>
 											</div>
 										</div>
@@ -213,12 +215,13 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-6">
+					<div class="col-4">
 						<div class="follow">
 							<div class="panel">
 								<div class="row">
 									<div class="col-12">
-										Follow
+										<h3 class="follow__title"><i class="fa fa-at" aria-hidden="true"></i> Follow</h3>
+										<hr>
 									</div>
 								</div>
 								<div class="row">
@@ -281,7 +284,7 @@
 											<div class="col-6">
 												<div class="panel follow--panel follow--panel--snapchat">
 													<h6>
-														<a class="follow__a snapchat" href="https://www.snapchat.com/add/thegeekkeef" target="_blank">
+														<a class="follow__a follow__a--snapchat" href="https://www.snapchat.com/add/thegeekkeef" target="_blank">
 															<i class="fa fa-snapchat" aria-hidden="true"></i> Snapchat</a>
 													</h6>
 												</div>
@@ -334,7 +337,7 @@
 							<div class="col-5">
 
 								<!-- contact -->
-								<form class="form-contact">
+								<form class="form--contact">
 									<div class="form--group">
 										<input type="text" class="form--control" id="name" placeholder="Name">
 									</div>
@@ -355,8 +358,7 @@
 					<div class="container container--short">
 						<div class="row">
 							<div class="col-6">
-								<p>designedBy:{{KTJunior}}</p>
-								<p>© Copyright 2017, All Rights Reserved</p>
+								<p>© Copyright 2017, All Rights Reserved  ||  designedBy:{{KTJunior}}</p>
 							</div>
 							<div class="col-6">
 								<div class="social">

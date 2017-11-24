@@ -2,9 +2,35 @@
  ================================================================ */
 
 .gallery {
-    &__lg--image {
-        background: url(../../assets/images/erik-lucatero-395688.jpg);
+    &__title {
+        font-size: 1.4rem;
+        color: $mainPink;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
     }
-    &__desc--lg {}
-    &__desc {}
+    &__lg--image {
+        background-image: url(../../assets/images/erik-lucatero-395688.jpg);
+    }
+    &__desc {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+        padding: 8px 0 3px 8px;
+        height: 75px;
+    }
+    &__desc--lg {
+        color: #fff;
+    }
+    &__desc--lg p {
+        font-size: 1rem;
+    }
+    &__desc--lg h6 {
+        font-size: 1rem;
+    }
+    &__desc h6 {
+        color: $mainGrey;
+    }
+    &__desc p {
+        font-size: 0.8rem;
+        line-height: 20px;
+    }
 }
