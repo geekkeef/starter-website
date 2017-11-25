@@ -7,8 +7,11 @@
         font-weight: 700;
         font-size: 5em;
         letter-spacing: -0.4rem;
+        &--modal {
+            padding-bottom: 20px;
+        }
     }
-    &_span {
+    &__span {
         color: $mainBlue;
         font-size: 0.75em;
         font-weight: 400;
