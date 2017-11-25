@@ -78,6 +78,9 @@
             &__menu-icon i.fa {
                 color: #fff;
             }
+            &--splash {
+                padding-right: 0;
+            }
             @mixin mediaMediumMax {
                 &--navbar {
                     position: relative;

@@ -462,6 +462,14 @@ body {
         color: #333;
     }
 
+body.splash {
+            background: url(../../assets/images/alexandre-st-louis-447911.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #fff;
+            background-color: #222222;
+        }
+
 a {
         text-decoration: none;
     }
@@ -797,6 +805,10 @@ li .nav--special {
                 color: #fff;
             }
 
+.nav--splash {
+                padding-right: 0;
+            }
+
 @media only screen and (max-width: 992px) {
                 .nav--navbar {
                     position: relative;
@@ -920,11 +932,47 @@ li .nav--special {
     text-align: center;
 }
 
+.logo--splash {
+        text-align: center;
+        padding-top: 25%;
+        text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+    }
+
+.logo--splash hr {
+            width: 400px;
+            border-top: 1px solid #f8f8f8;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+            margin-bottom: 30px;
+            margin-top: 15px
+        }
+
+.logo--splash h3 {
+            font-size: 1.3em;
+            margin-top: 12px;
+            font-weight: 200;
+        }
+
+@media only screen and (max-width: 992px) {
+            .logo--splash hr {
+                width: 230px;
+            }
+            .logo--splash h3 {
+                font-size: 1.15em;
+                margin-top: 12px;
+                font-weight: 200;
+            }
+    }
+
 .logo__h1 {
         font-weight: 700;
         font-size: 5em;
         letter-spacing: -0.4rem;
     }
+
+.logo__h1--splash {
+            color: #fff;
+            font-size: 4.4em;
+        }
 
 .logo__h1--modal {
             padding-bottom: 20px;
@@ -1421,21 +1469,32 @@ li .nav--special {
  ================================================================ */
 
 .wrapper {
-     overflow: hidden;
-     padding-left: 18px;
-     padding-right: 18px;
-     max-width: 1200px;
-     margin: 0 auto;
-
- }
+    overflow: hidden;
+    padding-left: 18px;
+    padding-right: 18px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 .wrapper--medium {
-         max-width: 990px;
-     }
+        max-width: 990px;
+    }
 
 .wrapper--narrow {
-         max-width: 460px;
-     }
+        max-width: 460px;
+    }
+
+@media only screen and (max-width: 992px) {
+
+.wrapper--splash {
+            max-width: 100%;
+            padding-left: 0;
+            padding-right: 0
+    }
+            .wrapper--splash .nav__logo--img {
+                padding-left: 0;
+            }
+    }
 
 /* Modal 
  ================================================================ */
