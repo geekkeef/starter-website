@@ -41,9 +41,15 @@
         &--modal {
             padding-bottom: 20px;
             word-spacing: -0.8rem;
-
             i {
                 margin-right: 15px;
+            }
+            @mixin mediaSmallMax {
+                font-size: 3rem;
+                word-spacing: -0.4rem;
+                i {
+                    margin-right: 10px;
+                }
             }
         }
     }

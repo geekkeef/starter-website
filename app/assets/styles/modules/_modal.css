@@ -16,12 +16,18 @@
     &__logo {
         margin-top: 17%;
         padding: 0 15px;
+        @mixin mediaSmallMax {
+            margin-top: 25%;
+        }
     }
     &__description {
         text-align: center;
         font-size: 1.4rem;
         line-height: 1.2;
         margin-bottom: 20px;
+        @mixin mediaSmallMax {
+            font-size: 1.2rem;
+        }
     }
     &__close {
         position: absolute;

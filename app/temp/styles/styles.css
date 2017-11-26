@@ -983,6 +983,17 @@ li .nav--special {
                 margin-right: 15px;
             }
 
+@media only screen and (max-width: 767px) {
+
+.logo__h1--modal {
+                font-size: 3rem;
+                word-spacing: -0.4rem
+        }
+                .logo__h1--modal i {
+                    margin-right: 10px;
+                }
+    }
+
 .logo__span {
         color: #468284;
         font-size: 0.75em;
@@ -1525,11 +1536,25 @@ li .nav--special {
         padding: 0 15px;
     }
 
+@media only screen and (max-width: 767px) {
+
+.modal__logo {
+            margin-top: 25%
+    }
+    }
+
 .modal__description {
         text-align: center;
         font-size: 1.4rem;
         line-height: 1.2;
         margin-bottom: 20px;
+    }
+
+@media only screen and (max-width: 767px) {
+
+.modal__description {
+            font-size: 1.2rem
+    }
     }
 
 .modal__close {
