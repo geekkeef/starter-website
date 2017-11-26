@@ -32,7 +32,7 @@
     }
     &__h1 {
         font-weight: 700;
-        font-size: 5em;
+        font-size: 4.5em;
         letter-spacing: -0.25rem;
         &--splash {
             color: #fff;
@@ -40,6 +40,11 @@
         }
         &--modal {
             padding-bottom: 20px;
+            word-spacing: -0.8rem;
+
+            i {
+                margin-right: 15px;
+            }
         }
     }
     &__span {
